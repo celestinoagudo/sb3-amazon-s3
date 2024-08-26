@@ -1,0 +1,9 @@
+spring:
+  applcation:
+    name: sb3-amazon-s3
+
+amazons3:
+  bucket:
+    name: sb3-test-bvcket
+    access-key:
+    secret-key: 
