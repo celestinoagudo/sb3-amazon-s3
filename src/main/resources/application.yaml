@@ -1,9 +1,11 @@
 spring:
   applcation:
     name: sb3-amazon-s3
-
+  profiles:
+    group:
+      dev:
+        - dev-secrets
+    active: dev
 amazons3:
   bucket:
     name: sb3-test-bvcket
-    access-key:
-    secret-key: 

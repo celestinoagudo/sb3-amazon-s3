@@ -35,3 +35,9 @@ out/
 
 ### VS Code ###
 .vscode/
+
+### Secrets ###
+/src/main/resources/application-dev-secrets.yaml
+
+### Test File ###
+/src/test/resources/test-text.txt
